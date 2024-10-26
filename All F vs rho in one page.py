@@ -1,9 +1,12 @@
+#This code is developed to calculate directly Frequency (F) vs Resistivity (Ω) and Frequency (F) vs -phase shift (mrad) for PSIP unit. Water and sediment sample has been measured 
+# with PSIP unit and the subsequent plot has been analysized to find the plots in one page.
 import math
 import pandas as pd
 import glob
 import os
 import matplotlib.pyplot as plt
 
+#Please Chnage the Data Directory
 Sediment_path = 'D:/Thesis/Lab Measurement/Long measurement/Altered/Sediment'
 Water_path = 'D:/Thesis/Lab Measurement/Long measurement/Altered/Water'
 
